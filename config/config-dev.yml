@@ -23,4 +23,4 @@ spring:
           format_sql: true
 
 # custom properties
-IMAGE_SERVER: https://imagedev-dynamic.study.com
+IMAGE_SERVER: https://imagedev.study.com
