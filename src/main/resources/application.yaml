@@ -2,12 +2,18 @@ server:
   port: 8888
 
 spring:
+  application:
+    name: spring-config-service
+    profiles:
+      active: native
   cloud:
     config:
       server:
+        native:
+          search-locations: classpath:/service-config
         git:
           uri: https://github.com/skysoo1111/spring-config-server.git
           username: spring-config-server
           password: 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
           default-label: master
-          search-paths: classpath:/service-config
+#          search-paths: /service-config
