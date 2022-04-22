@@ -1,5 +1,5 @@
 server:
-  port: 8088
+  port: 8888
 
 spring:
   cloud:
@@ -10,4 +10,4 @@ spring:
           username: spring-config-server
           password: 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
           default-label: master
-          search-paths: /config
+          search-paths: classpath:/service-config
